@@ -403,3 +403,41 @@ h1 {
     }
 }
 /******ARTICLES end******/
+
+
+/******PAGINATION begin******/
+
+.pad {
+    width: 100%;
+}
+
+
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    text-decoration: none;
+    margin-left: -1px;
+    border: none;
+    color: #868686;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li > a.pag_prev_next {
+    color: #eb4900;
+}
+
+
+/*.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.42857143;
+    text-decoration: none;
+    color: #337ab7;
+    background-color: #ffffff;
+    /* border: 1px solid #dddddd; */
+    margin-left: -1px;*/
+/******PAGINATION end******/

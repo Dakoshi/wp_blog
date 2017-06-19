@@ -229,31 +229,30 @@
 
             </div>
 
-
             <nav class="text-center">
                 <!--text-center отвечает за выравнивание по центру, так как это отчасти строчный элемент (inline-block)-->
-                <ul class="pagination pagination-lg">
-                    <!--pagination-размер бывает lg и sm-->
-                    <li class="disabled"><a href=""><i class="glyphicon glyphicon-step-backward"></i></a></li>
+                <ul class="pagination">
+                    
+                    <li class="disabled hidden"><a class="pag_prev_next" href="">Prev</a></li>
                     <!--class="disabled" показывает, что нельзя нажать и делает надписи на кнопке серыми-->
-                    <li class="disabled"><a href=""><i class="glyphicon glyphicon-arrow-left"></i></a></li>
-                    <li class="active"><a href="#">1</a></li>
+                    
+                    <li><a href="#">1</a></li>
                     <!--class="active" подсвечивает активную кнопку-->
                     <li><a href="#">2</a></li>
                     <li><a href="#">3</a></li>
                     <li><a href="#">4</a></li>
                     <li>
-                        <p>of</p>
+                        <span>of</span>
                     </li>
                     <li><a href="#">75</a></li>
-                    <li><a href=""><i class="glyphicon glyphicon-arrow-right"></i></a></li>
-                    <li><a href=""><i class="glyphicon glyphicon-step-forward"></i></a></li>
+                    <li><a class="pag_prev_next" href="">Next</a></li>
                 </ul>
             </nav>
 
+<hr>
 
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                     <h2>User News</h2>
                     <h3>Thanksgiving greetings</h3>
                     <p><span>date by</span><span>admin</span></p>
