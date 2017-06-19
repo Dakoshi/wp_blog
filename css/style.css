@@ -478,8 +478,14 @@ button {
 }
 
 
+.inspiration, .flickr {
+    text-align: justify;
+    display: inline-block;
+}
 
-
-
+.inspiration > a > img {
+    padding-bottom: 15px; 
+    padding-top: 15px;
+}
 
 /******NEWS end******/
